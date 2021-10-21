@@ -33,7 +33,7 @@ namespace LastNumber
                 {
                     Console.WriteLine("num must be under 10000");
                     n = ReadNum();
-                } while (n > 10000);
+                } while (n > 10000 || n < 0);
                 k = n % 10;
                 Console.WriteLine(k);
             }
